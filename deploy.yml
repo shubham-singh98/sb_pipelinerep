@@ -1,7 +1,7 @@
-host: hostservers
+host: webservers
 become: yes
 become_method: sudo
-remote_user: harsh8
+remote_user: shubham
 
 tasks:
 - name:enable UFW
